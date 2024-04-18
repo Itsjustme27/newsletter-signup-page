@@ -1,0 +1,79 @@
+@import url(https://fonts.google.com/specimen/Roboto);
+
+body{
+    background-color:hsl(235, 18%, 26%);
+    font-family: Roboto;
+}
+.container{
+    background-color: white;
+    width: min-content;
+   
+}
+
+.form{
+    font-size: 16px;
+    
+}
+
+h1{
+    font-size: 3rem;
+}
+
+button, #email{
+    height: 3rem;
+}
+
+.custom-btn{
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+
+.custom-btn:hover{
+    background: hsl(4, 100%, 67%);
+    color: white;
+}
+
+@media screen and (max-width: 728px) {
+    body{
+        background-color: white;
+        margin-top: -100px;
+        padding: 0;
+        text-align: left;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: left;
+    }
+
+    img{
+        margin: -50px;
+    }
+
+    .m-5{
+        margin: 0;
+    }
+
+    .custom-btn{
+        background-color: rgb(41, 41, 41);
+        color: white;
+        width: 100%;
+        font-size: 10px;
+    }
+    
+    .custom-btn:hover{
+        background: hsl(4, 100%, 67%);
+        color: white;
+    }
+    
+    .form{
+        width: 300px;
+        font-size: 12px;
+    }
+
+
+    h1{
+        font-size: 30px;
+    }
+}
